@@ -440,11 +440,3 @@ for scene_idx, scene_id in enumerate(tqdm(scan2cad_annos.keys())):
                 
 print(f"Total objects: {auto_anno_cnt+auto_disc_cnt+manual_anno_cnt}, Auto anno:{auto_anno_cnt}, disc: {auto_disc_cnt}, manual: {manual_anno_cnt}")
 print()        
-
-    
-"""
-TODO:
-[ ] If overlap > max_thresh -> Auto annotate
-[ ] If overlap < min_thresh -> discard
-[ ] If overlap between max and min thresh -> Manual
-"""
