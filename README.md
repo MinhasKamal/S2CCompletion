@@ -1,5 +1,7 @@
 # S2C-Completion
 
+[Paper](https://openreview.net/pdf/c438ccb8604dc76f5f355bfafa7516a62c716275.pdf) | [Project](https://github.com/kumarhiranya/S2CCompletion) | [SyntheticPCDCompletionDataset-GColab](https://colab.research.google.com/drive/14UBBk6mOH5IHOBv5ABmiyF4vus9ZtnmN?usp=sharing)
+
 **S2C-Completion** is a dataset and annotation toolkit for establishing ground-truth correspondences between real-world 3D point cloud instances from ScanNetv2 and their matching CAD models from ShapeNet, building on top of the [Scan2CAD](https://github.com/skanti/Scan2CAD) alignment dataset.
 
 ---
@@ -195,5 +197,9 @@ python combine_scene_annos.py
 If you use this dataset or code please cite:
 
 ```
-
+@inproceedings{kumar_caoa20263dv,
+  title={CAOA-Completion-Assisted Object-CAD Alignment},
+  author={Kumar, Hiranya Garbha and Kamal, Minhas and Prabhakaran, Balakrishnan},
+  booktitle={Thirteenth International Conference on 3D Vision}
+}
 ```
